@@ -1,24 +1,15 @@
 # vuejs-weather-crawling-app
 
-## Project setup
-```
-npm install
-```
+# 1. 소개
+vue.js를 사용한 웹 크롤링 프로젝트 입니다. 크롤링하여 보여줄 데이터는 날씨 데이터이며, 이 데이터를 크롤링 하는 곳은 구글에서 검색한 데이터를 활용할 예정입니다.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 2. 사용 기술
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 1. vue.js
+프론트엔드의 개발에는 UI개발 프레임워크인 vue.js를 사용하였습니다. vue.js 에 대한 경험을 높이기 위해 활용하였습니다.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 2. tailwindcss
+프론트엔드의 스타일링을 기존의 부트스트랩과는 다른 방식으로 사용하기 위해 tailwindcss를 도입하여 활용하기로 결정했습니다. 이를 통해 부트스트랩을 사용해 만든 웹 애플리케이션과는 조금 다른 방식의 UI구현을 기대할 수 있습니다.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 3. typescript
+기존의 자바스크립트 개발에서 더 나아가 프로젝트를 세밀하게 다루기 위해 도입하였습니다.
