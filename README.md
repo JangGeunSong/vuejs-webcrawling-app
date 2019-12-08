@@ -13,3 +13,9 @@ vue.js를 사용한 웹 크롤링 프로젝트 입니다. 크롤링하여 보여
 
 ## 3. typescript
 기존의 자바스크립트 개발에서 더 나아가 프로젝트를 세밀하게 다루기 위해 도입하였습니다.
+
+# 3. 개발환경
+OS: Microsoft windows 10 pro
+Node.js: 13.2.0
+npm: 6.13.2
+Editor: Visual Studio Code
