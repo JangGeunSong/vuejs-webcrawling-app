@@ -11,8 +11,11 @@ import { Component, Vue } from 'vue-property-decorator';
 import Header from './components/Header.vue';
 import Contents from './components/Contents.vue';
 // react.js 처럼 컴포넌트들을 받아온다
-
-let weatherData = fetch('https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=광진구날씨')
+let searchLocation;
+let weatherData;
+ fetch(`https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=${searchLocation}`)
+    .then(res => res.json())
+    .then(data =>  weatherData = data)
 // props에 정의될 데이터를 미리 받아오는 활동은 스크립트 안에서 실행한다.
 
 @Component({
